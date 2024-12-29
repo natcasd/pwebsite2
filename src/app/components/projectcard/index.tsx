@@ -24,7 +24,7 @@ const ProjectCard = (props: ProjectCardProps) => {
 
   return (
     <>
-      <Card className="relative h-[350px]"
+      <Card className="relative md:h-[315px] h-[405px]"
       >
         <CardHeader className="mb-0">
           <CardTitle >{title + " " + emoji}</CardTitle>

@@ -2,6 +2,7 @@ import { FormData } from "../components/contactform";
 
 export function sendEmail(data: FormData) {
   console.log(data);
+  console.log(process.env.MY_EMAIL);
   const apiEndpoint = "/api/email";
 
   return new Promise((resolve, reject) => {

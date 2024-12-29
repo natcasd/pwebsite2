@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import dynamic from 'next/dynamic';
 
 const Slider = dynamic(() => import('react-slick'), {

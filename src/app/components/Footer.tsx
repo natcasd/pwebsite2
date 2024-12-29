@@ -17,7 +17,7 @@ return (<>
           </a>
         </div>
       </div>
-      <h1 className="font-mono text-center text-xs mt-2">
+      {/* <h1 className="font-mono text-center text-xs mt-2">
         Check out my{" "}
         <a
           target="_blank"
@@ -26,6 +26,6 @@ return (<>
         >
           blog
         </a>
-      </h1>
+      </h1> */}
       </>
 );}

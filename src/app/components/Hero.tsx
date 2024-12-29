@@ -15,7 +15,7 @@ export default function Hero() {
         <div className="flex flex-col leading-none">
           <h1 className="text-[6vw] sm:text-[4vw] italic">{greeting}!</h1>
           <h1 className="text-[10vw] lg:text-[7vw] sm:text-[7vw] xs:text-[5vw] font-bold">
-            I'm <span className="underline">Nathan</span>.
+            I&apos;m <span className="underline">Nathan</span>.
           </h1>
         </div>
       </div>

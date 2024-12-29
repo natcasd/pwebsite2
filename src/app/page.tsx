@@ -1,12 +1,12 @@
 import About from './components/About';
 import Projects from './components/Projects';
-import Projects2 from './components/Projects2';
-import Experience from './components/Experience';
 import Contact from './components/Contact';
-import Contact2 from './components/Contact2';
 import Hero from './components/Hero';
 import Footer from './components/Footer';
-import Test from './components/Test';
+// import Contact2 from './components/Contact2';
+// import Experience from './components/Experience';
+// import Projects2 from './components/Projects2';
+// import Test from './components/Test';
 
 
 export default function Home() {
