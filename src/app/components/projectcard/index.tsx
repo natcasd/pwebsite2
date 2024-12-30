@@ -2,7 +2,6 @@
 import {
   Card,
   CardContent,
-  CardHeader,
   CardTitle,
 } from "@/components/ui/card"
 import { Separator } from "@/components/ui/separator";
@@ -20,25 +19,7 @@ interface ProjectCardProps {
   emoji: string;
 }
 
-type BadgeVariant = "yellow" | "blue" | "green" | "red" | "purple" | "pink" | "violet" | "orange" | "teal" | "default";
 
-function getColorForLanguage(language: string): BadgeVariant {
-  const languageColors: { [key: string]: BadgeVariant } = {
-    javaScript: "yellow",
-    TypeScript: "blue",
-    python: "green",
-    Java: "red",
-    CSharp: "purple",
-    Ruby: "pink",
-    PHP: "violet",
-    Swift: "orange",
-    Go: "teal",
-    // Add more languages and their corresponding colors as needed
-  };
-
-  // Return the color for the language, or a default color if not found
-  return languageColors[language] || "default";
-}
 
 const ProjectCard = (props: ProjectCardProps) => {
   const { title, language, description, link, emoji } = props;
