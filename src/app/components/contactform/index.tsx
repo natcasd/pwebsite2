@@ -31,9 +31,9 @@ const Contact = () => {
   };
 
   return (
-    <div>
+    <>
       {!emailStatus && !loading && (
-        <div>
+        <>
           <div className="flex items-center justify-between max-w-2xl">
             <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl">
               Contact Me
@@ -88,7 +88,7 @@ const Contact = () => {
               </button>
             </div>
           </form>
-        </div>
+        </>
       )}
       <div className="text-center">
         {loading && (
@@ -106,7 +106,7 @@ const Contact = () => {
         )}
       </div>
       
-    </div>
+    </>
   );
 };
 

@@ -12,7 +12,7 @@ interface Experience {
 
 export default async function Experience() {
   const file = await fs.readFile(
-    process.cwd() + "/src/app/public/data/experiences.json",
+    process.cwd() + "/public/data/experiences.json",
     "utf8"
   );
   const experiences = JSON.parse(file);

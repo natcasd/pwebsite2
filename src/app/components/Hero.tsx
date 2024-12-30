@@ -1,5 +1,5 @@
 import Image from "next/image";
-import profile from "../public/images/profile.png"; // Adjust the path as needed
+import profile from "../../../public/images/profile.png"; // Adjust the path as needed
 import { getGreeting } from "../utils/getGreeting";
 
 export default function Hero() {
