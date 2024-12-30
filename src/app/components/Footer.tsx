@@ -10,7 +10,6 @@ export default async function Footer() {
     const response = await fetch(apiUrl);
     if (response.ok) {
       const commitData = await response.json();
-      console.log(commitData)
       commitTimestamp = commitData.commit.author.date || null;
     }
   } catch (error) {
