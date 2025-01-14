@@ -1,6 +1,13 @@
 {
   "projects": [
     {
+      "title": "Self-Supervised Learning on Flight Data",
+      "language": ["python"],
+      "description": "I applied self-supervised learning techniques to a new domain, flight time series. I used a contrastive learning framework (SIMCLR) to generate latent representations of flight data for use in various downstream tasks like predicting the safety of a flight and determining flight type.",
+      "link": "https://github.com/aidanlabella/NGAFID-SSL",
+      "emoji": "🛩️"
+    },
+    {
       "title": "Earnings Predictor",
       "language": ["python"],
       "description": "I created a model to determine stock earnings prediction beats and misses. Using historical earnings and additional data on a stock it outputs a score between -1 and 1 indicating whether it will be a beat or a miss and to what extent.",
