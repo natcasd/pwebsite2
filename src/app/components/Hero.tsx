@@ -5,12 +5,6 @@ import { getGreeting } from "../utils/getGreeting";
 //import { useEffect, useState } from 'react';
 
 export default function Hero() {
-  // const [greeting, setGreeting] = useState('');
-
-  // // Update the greeting when the component mounts
-  // useEffect(() => {
-  //   setGreeting(getGreeting());
-  // }, []);
   const greeting = getGreeting()
   return (
       <div id="about" className="scroll-mt-20 flex justify-center items-center h-full w-full space-x-3">
