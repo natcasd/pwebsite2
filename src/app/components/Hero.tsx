@@ -13,6 +13,7 @@ export default function Hero() {
           src={profile}
           alt="profile pic"
           className="w-1/3 h-1/3 md:w-1/4 md:h-1/4 object-cover object-center rounded-lg"
+          priority
         />
         <div className="flex flex-col leading-none">
           <h1 className="text-[6vw] sm:text-[4vw] italic">{greeting}</h1>
