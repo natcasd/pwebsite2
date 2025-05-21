@@ -35,12 +35,12 @@ export default function Navbar() {
               <MdMailOutline className="text-xl"/>
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href="/resume.pdf" className="hover:text-gray-800 transition duration-200 flex items-center space-x-1 font-medium">
               <span className="hidden sm:inline">Resume</span>
               <RiArticleLine className="text-xl"/>
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </nav>

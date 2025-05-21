@@ -3,9 +3,23 @@
     {
       "title": "Self-Supervised Learning on Flight Data",
       "language": ["python"],
-      "description": "I applied self-supervised learning techniques to a new domain, flight time series. I used a contrastive learning framework (SIMCLR) to generate latent representations of flight data for use in various downstream tasks like predicting the safety of a flight and determining flight type.",
+      "description": "My group and I applied self-supervised learning techniques to a new domain, flight time series. We used a contrastive learning framework (SIMCLR) to generate latent representations of flight data for use in various downstream tasks like predicting the safety of a flight and determining flight type. We published our novel flight dataset and a corresponding paper to encourage SSL and general ML research in the flight domain.",
       "link": "https://github.com/aidanlabella/NGAFID-SSL",
       "emoji": "🛩️"
+    },
+    {
+      "title": "Pattern Extraction from Unstructured Data",
+      "language": ["python"],
+      "description": "We developed a framework to identify and extract patterns from unstructured patient data, achieving 96% accuracy on our synthetic dataset through experimentation with different LLM providers, workflows, and prompting strategies.",
+      "link": "https://github.com/natcasd/chatdbt",
+      "emoji": "🏥"
+    },
+    {
+      "title": "Universal Gene Representation",
+      "language": ["python"],
+      "description": "We trained attention-based encoders on gene data with Brown's HPC cluster using Supervised Contrastive Learning and Domain Adversarial Neural Networks. We achieved sampling-invariant gene expression representations matching state of the art results.",
+      "link": "https://github.com/natcasd/universalgene",
+      "emoji": "🧬"
     },
     {
       "title": "Earnings Predictor",

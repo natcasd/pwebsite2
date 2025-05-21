@@ -3,9 +3,9 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Hero from './components/Hero';
 import Footer from './components/Footer';
+import Projects2 from './components/Projects2';
 // import Contact2 from './components/Contact2';
 // import Experience from './components/Experience';
-// import Projects2 from './components/Projects2';
 // import Test from './components/Test';
 
 
@@ -16,7 +16,7 @@ export default function Home() {
       <Hero/>
       <About/>
       {/* <Projects2/> */}
-      <Projects/>
+      <Projects2/>
       {/* <Experience/> */}
       <Contact/>
       <Footer/>
