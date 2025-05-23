@@ -1,9 +1,9 @@
 import About from './components/About';
-import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Hero from './components/Hero';
 import Footer from './components/Footer';
 import Projects2 from './components/Projects2';
+// import Projects from './components/Projects';
 // import Contact2 from './components/Contact2';
 // import Experience from './components/Experience';
 // import Test from './components/Test';

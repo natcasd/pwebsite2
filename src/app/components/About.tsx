@@ -7,7 +7,7 @@ export default function About() {
     <div className="flex flex-col justify-center h-full w-full text-left">
 
     <p className="text-sm sm:text-base md:text-lg border-black rounded-lg mb-4">
-      <b>Hi!</b> I am incredibly excited about the potential that AI has to supercharge humans and allow them to leverage their creativity in extraordinary ways. I want to make this vision a reality.
+      <b>Hi!</b> I am incredibly excited about the potential that AI has to supercharge humans and allow them to leverage their creativity in extraordinary ways.
         </p>
         <p className="text-sm sm:text-base md:text-lg border-black rounded-lg mb-4">
           I just finished my <b>Sc.M.</b> in computer science at <a href="https://www.brown.edu/" className="text-gray-500 underline underline-offset-2 hover:text-black hover:underline">Brown University</a>, where I studied AI fervently through my coursework and research. I also did my undergrad there too.
