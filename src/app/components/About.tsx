@@ -13,7 +13,7 @@ export default function About() {
           I just finished my <b>Sc.M.</b> in computer science at <a href="https://www.brown.edu/" className="text-gray-500 underline underline-offset-2 hover:text-black hover:underline">Brown University</a>, where I studied AI fervently through my coursework and research. I also did my undergrad there too.
         </p>
         <p className="text-sm sm:text-base md:text-lg border-black rounded-lg mb-4">
-          I'm exploring this passion as an AI engineer at <a href="https://wayak.io/" className="text-gray-500 underline underline-offset-2 hover:text-black hover:underline">Wayak</a>.
+          I&apos;m exploring this passion as an AI engineer at <a href="https://wayak.io/" className="text-gray-500 underline underline-offset-2 hover:text-black hover:underline">Wayak</a>.
         </p>
         <p className="text-sm sm:text-base md:text-lg border-black rounded-lg mb-4">
           Outside of AI, I love the puzzle of financial markets, and have a lot of fun playing around with frontend work.
